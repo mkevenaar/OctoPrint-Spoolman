@@ -4,6 +4,7 @@
   ],
   "assignees": ["mkevenaar"],
   "labels": ["renovate"],
+  "rangeStrategy": "preserveSemverRanges",
   "packageRules": [
   {
     "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
