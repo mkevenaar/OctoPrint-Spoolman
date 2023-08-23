@@ -4,7 +4,7 @@
 ### Do not forget to adjust the following variables to your own plugin.
 
 # The plugin's identifier, has to be unique
-plugin_identifier = "Spoolman"
+plugin_identifier = "spoolman"
 
 # The plugin's python package, should be "octoprint_<plugin identifier>", has to be unique
 plugin_package = "octoprint_Spoolman"
@@ -18,7 +18,7 @@ plugin_version = "0.1.0"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
-plugin_description = """Spoolman integration for OctoPrint"""
+plugin_description = "Spoolman integration for OctoPrint"
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data via __plugin_author__ in the plugin module
 plugin_author = "Maurice Kevenaar"

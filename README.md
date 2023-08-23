@@ -1,6 +1,14 @@
-# OctoPrint-Spoolman
+# Spoolman integration for OctoPrint
 
-**TODO:** Describe what your plugin does.
+[![Version](https://img.shields.io/badge/dynamic/json.svg?color=brightgreen&label=version&url=https://api.github.com/repos/mkevenaar/OctoPrint-Spoolan/releases&query=$[0].name)]()
+[![Released](https://img.shields.io/badge/dynamic/json.svg?color=brightgreen&label=released&url=https://api.github.com/repos/mkevenaar/OctoPrint-Spoolman/releases&query=$[0].published_at)]()
+![GitHub Releases (by Release)](https://img.shields.io/github/downloads/mkevenaar/OctoPrint-Spoolman/latest/total.svg)
+
+Report filament usage to Spoolman.
+
+:warning: An installation of [Spoolman](https://github.com/Donkie/Spoolman#installation) is required!
+
+The UI and inner works of this companion plugin are based on [OctoPrint-FilamentManager](https://github.com/OllisGit/OctoPrint-FilamentManager)
 
 ## Setup
 
