@@ -66,8 +66,7 @@ __plugin_name__ = "Spoolman Companion Plugin"
 # OctoPrint 1.4.0 - 1.7.x run under both Python 3 and the end-of-life Python 2.
 # OctoPrint 1.8.0 onwards only supports Python 3.
 __plugin_pythoncompat__ = ">=3,<4"  # Only Python 3
-
-__required_octoprint_version__ = ">=1.9.0"
+__required_octoprint_version__ = ">=1.8.0"
 
 def __plugin_load__():
     global __plugin_implementation__
