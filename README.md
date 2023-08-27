@@ -23,9 +23,9 @@ If you like it, I would be thankful for a cup of coffee, or a sponsorship :)
 
 ## Features
 
-* [x] Software odometer to track amount of extruded filament
-* [] Warns you if the selected spool has not enough filament left for the print job
-* [] Automatically pause print if filament runs out
+[x] Software odometer to track amount of extruded filament
+[ ] Warns you if the selected spool has not enough filament left for the print job
+[ ] Automatically pause print if filament runs out
 
 ## Setup
 
