@@ -2,15 +2,16 @@
  * View model for OctoPrint-Spoolman
  *
  * Author: Maurice Kevenaar
- * License: MIT
+ * License: AGPLv3
  */
 $(function() {
     function SpoolmanViewModel(parameters) {
         var self = this;
 
         // assign the injected parameters, e.g.:
-        // self.loginStateViewModel = parameters[0];
-        // self.settingsViewModel = parameters[1];
+        self.loginState = parameters[0];
+        self.access = parameters[1];
+        self.settings = parameters[2];
 
         // TODO: Implement your plugin's view model here.
     }
@@ -21,9 +22,7 @@ $(function() {
      */
     OCTOPRINT_VIEWMODELS.push({
         construct: SpoolmanViewModel,
-        // ViewModels your plugin depends on, e.g. loginStateViewModel, settingsViewModel, ...
-        dependencies: [ /* "loginStateViewModel", "settingsViewModel" */ ],
-        // Elements to bind to, e.g. #settings_plugin_Spoolman, #tab_plugin_Spoolman, ...
-        elements: [ /* ... */ ]
+        elements: [ /* ... */ ],
+        dependencies: ["loginStateViewModel", "accessViewModel", "settingsViewModel"]
     });
 });
