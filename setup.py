@@ -30,7 +30,7 @@ plugin_author_email = "maurice@kevenaar.name"
 plugin_url = "https://github.com/mkevenaar/OctoPrint-Spoolman"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
-plugin_license = "MIT"
+plugin_license = "AGPLv3"
 
 # Any additional requirements besides OctoPrint should be listed here
 plugin_requires = []
